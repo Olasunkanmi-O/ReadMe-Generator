@@ -1,35 +1,34 @@
 
 
-    # readme Genarator 
+# README generator
 
-    ## Table of contents
-        -[Description](#description)
-        -[Installation](#installation)
-        -[usage](#usage)
-        -[License](#license)
-        -[Contributing](#contributing)
-        -[Test](#test)
-        -[Question](#question)
+## Table of contents    
+-[Installation](#installation)
+-[Usage](#usage)
+-[License](#license)
+-[Contribution](#contribution)
+-[Test](#test)
+-[Questions](#questions)
     
-    ## Description
-    You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in quotation marks after the URL.
+## Description
+    thy diueje
 
-    ## Installation
+## Installation
     npm i
 
-    ## Usage
-    The rendered output looks like this
+## Usage
+    
 
-    ## License
+## License
     MIT
 
-    ## Contribution
-    creat a branch repo and make your contribution
+## Contribution
+    crvrv
 
-    ## Test
+## Test
     npm test
 
-    ##Questions
-    if you have any questions, you can reach the repo ownwer at ola@truth.com or check their repo page (https://github.com/undefined
+## Questions
+    If you have any questions, you can reach the repo ownwer, [Ola](https://github.com/Ola)at Ola@home.com.
       
     

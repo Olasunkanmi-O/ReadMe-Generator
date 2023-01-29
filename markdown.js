@@ -10,37 +10,36 @@ function markdown (data) {
    
     return `
 
-    # ${data.title}
+# ${data.title}
 
-    ## Table of contents
-        -[Description](#description)
-        -[Installation](#installation)
-        -[usage](#usage)
-        -[License](#license)
-        -[Contributing](#contributing)
-        -[Test](#test)
-        -[Question](#question)
+## Table of contents    
+-[Installation](#installation)
+-[Usage](#usage)
+-[License](#license)
+-[Contribution](#contribution)
+-[Test](#test)
+-[Questions](#questions)
     
-    ## Description
+## Description
     ${data.description}
 
-    ## Installation
+## Installation
     ${data.installation}
 
-    ## Usage
+## Usage
     ${data.usage}
 
-    ## License
+## License
     ${data.license}
 
-    ## Contribution
+## Contribution
     ${data.contribution}
 
-    ## Test
+## Test
     ${data.test}
 
-    ##Questions
-    if you have any questions, you can reach the repo ownwer at ${data.email} or check their repo page (https://github.com/${data.github}
+## Questions
+    If you have any questions, you can reach the repo ownwer, [${data.Github}](https://github.com/${data.Github})at ${data.email}.
       
     `;
 }

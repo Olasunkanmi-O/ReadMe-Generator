@@ -66,7 +66,7 @@ function promptUser(){
             default: 'npm test'
         }
     ]).then(data => {
-        // console.log(data)
+        console.log(data)
         createFile('./lib/README.md', markdown(data))
 
     })   
