@@ -1,6 +1,7 @@
-const promptUser = require("./questions")
+
 const createFile = require("./createFile")
 const markdown = require("./markdown")
+const promptUser = require("./questions")
 
 
 
@@ -11,7 +12,7 @@ function init() {
           Please answer the following questions:\n` )
 
     promptUser()
-    createFile('./lib/README.md', markdown(data))
+    
 }
 
 init()

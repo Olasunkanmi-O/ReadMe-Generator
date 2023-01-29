@@ -1,6 +1,8 @@
 
 
 const inquirer = require('inquirer')
+const createFile = require('./createFile')
+const markdown = require('./markdown')
 
 function promptUser(){
     inquirer.prompt([
@@ -64,10 +66,13 @@ function promptUser(){
             default: 'npm test'
         }
     ]).then(data => {
-        // console.log(data)
+        createFile('./lib/README.md', markdown(data))
+
     })   
 }
 
 module.exports = promptUser
+
+
 
 

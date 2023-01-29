@@ -1,6 +1,9 @@
 
 
-const data = require('./questions')
+
+const promptUser = require('./questions')
+
+
 
 
 function markdown (data) {
@@ -41,5 +44,8 @@ function markdown (data) {
       
     `
 }
+markdown(data)
+
+
 
 module.exports = markdown
