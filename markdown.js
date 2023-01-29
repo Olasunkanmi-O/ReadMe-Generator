@@ -42,7 +42,7 @@ function markdown (data) {
     ##Questions
     if you have any questions, you can reach the repo ownwer at ${data.email} or check their repo page (https://github.com/${data.github}
       
-    `
+    `;
 }
 
 

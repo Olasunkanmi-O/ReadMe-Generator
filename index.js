@@ -1,6 +1,5 @@
 
 const createFile = require("./createFile")
-const markdown = require("./markdown")
 const promptUser = require("./questions")
 
 
