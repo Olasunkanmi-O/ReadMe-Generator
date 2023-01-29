@@ -13,12 +13,12 @@ function markdown (data) {
 # ${data.title}
 
 ## Table of contents    
--[Installation](#installation)
--[Usage](#usage)
--[License](#license)
--[Contribution](#contribution)
--[Test](#test)
--[Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Test](#test)
+- [Questions](#questions)
     
 ## Description
     ${data.description}
@@ -39,7 +39,7 @@ function markdown (data) {
     ${data.test}
 
 ## Questions
-    If you have any questions, you can reach the repo ownwer, [${data.Github}](https://github.com/${data.Github})at ${data.email}.
+    If you have any questions, you can reach the repo ownwer, [${data.Github}](#https://github.com/${data.Github})at ${data.email}.
       
     `;
 }
