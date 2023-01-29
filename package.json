@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Olasunkanmi-O/ReadMe-Generator/issues"
   },
-  "homepage": "https://github.com/Olasunkanmi-O/ReadMe-Generator#readme"
+  "homepage": "https://github.com/Olasunkanmi-O/ReadMe-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  }
 }
