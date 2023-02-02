@@ -1,5 +1,5 @@
 
-
+// required for linking the JavaScript files 
 const inquirer = require('inquirer')
 const createFile = require('./createFile')
 const markdown = require('./markdown')

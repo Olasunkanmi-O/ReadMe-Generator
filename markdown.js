@@ -7,7 +7,7 @@ const promptUser = require('./questions')
 
 
 function markdown (data) {
-   
+//    function to generate content (data) of the readme based on input from the user
     return `
 
 # ${data.title}

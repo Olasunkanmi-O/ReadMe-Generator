@@ -2,6 +2,7 @@
 const fs = require('fs')
 
 function createFile (filename, data) {
+    // function to create a file based on fs functionality
     fs.writeFile(filename, data, err => {
         if (err) return err
 
